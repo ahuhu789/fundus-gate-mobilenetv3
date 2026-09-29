@@ -1,0 +1,11 @@
+{
+    "optimal_threshold": 0.965,
+    "constraint": "Fundus Recall >= 0.95 and minimum FPR",
+    "validation_metrics": {
+        "roc_auc": 1.0,
+        "recall": 1.0,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "f1": 1.0
+    }
+}

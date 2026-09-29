@@ -1,0 +1,36 @@
+{
+  "id": "nguynhuythanh/klcn-fundus-gate-mobilenetv3",
+  "title": "KLCN Fundus Gate MobileNetV3",
+  "code_file": "fundus_gate_training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu",
+    "deep-learning",
+    "computer-vision",
+    "healthcare",
+    "transfer-learning"
+  ],
+  "dataset_sources": [
+    "tanlikesmath/diabetic-retinopathy-resized",
+    "puneet6060/intel-image-classification",
+    "prasunroy/natural-images",
+    "ritvik1909/document-classification-dataset",
+    "shakilrana/octdl-retinal-oct-images-dataset",
+    "thomasdubail/chest-pneumonia-256x256",
+    "sartajbhuvaji/brain-tumor-classification-mri",
+    "monareyhanii/casia-iris-syn",
+    "kayvanshah/eye-dataset",
+    "kondwani/eye-disease-dataset",
+    "akshayramakrishnan28/cataract-classification-dataset"
+  ],
+  "competition_sources": [
+    "diabetic-retinopathy-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": []
+}

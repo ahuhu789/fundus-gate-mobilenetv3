@@ -1,0 +1,45 @@
+{
+    "model_name": "FundusGate_MobileNetV3Small",
+    "input_shape": [
+        224,
+        224,
+        3
+    ],
+    "total_parameters": 939697,
+    "optimal_threshold": 0.965,
+    "validation_metrics": {
+        "roc_auc": 1.0,
+        "recall": 1.0,
+        "specificity": 1.0,
+        "fpr": 0.0,
+        "f1": 1.0
+    },
+    "test_metrics": {
+        "accuracy": 0.9994,
+        "precision": 0.9987,
+        "recall": 1.0,
+        "specificity": 0.9987,
+        "fpr": 0.0013,
+        "fnr": 0.0,
+        "f1": 0.9994,
+        "roc_auc": 1.0,
+        "confusion_matrix": {
+            "tp": 1588,
+            "fp": 2,
+            "tn": 1574,
+            "fn": 0
+        }
+    },
+    "challenge_test_metrics": {
+        "total_samples": 900,
+        "true_negatives": 899,
+        "false_positives": 1,
+        "challenge_specificity": 0.9989,
+        "challenge_fpr": 0.0011
+    },
+    "artifacts": {
+        "keras_size_mb": 9.78,
+        "tflite_size_mb": 3.56,
+        "tflite_fp16_size_mb": 1.82
+    }
+}
